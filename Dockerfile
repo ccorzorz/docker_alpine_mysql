@@ -1,5 +1,5 @@
 FROM alpine:3.5
-MAINTAINER WangXian <xian366@126.com>
+MAINTAINER Shane <ccniubi@163.com>
 
 WORKDIR /data/mysql
 ENV DATA_DIR /data/mysql
