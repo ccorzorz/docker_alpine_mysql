@@ -4,7 +4,7 @@ a docker image base on alpine with mysql
 # build image
 ```
 docker build -t cc/alpine-mysql .
-docker run -it --rm -v $(pwd):/app -p 3306:3306 cc/alpine-mysql
+docker run -it --rm -v $(pwd):/data/mysql -p 3306:3306 cc/alpine-mysql
 ```
 
 # Usage 
